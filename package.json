@@ -1,0 +1,25 @@
+{
+  "name": "msc-memoir-presentation",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export",
+    "typecheck": "bun check"
+  },
+  "devDependencies": {
+    "@slidev/cli": "53.0.0",
+    "@slidev/theme-default": "0.25.0",
+    "@types/bun": "latest",
+    "typescript": "^5.6.3",
+    "vue": "3"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "@slidev/theme-seriph": "^0.25.0"
+  }
+}
